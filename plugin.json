@@ -1,0 +1,24 @@
+{
+    "pluginName": "hulu",
+    "description": "记录你的想法川流",
+    "author": "heibai",
+    "homepage": "https://github.com/heibai01/utools-plugin-flomo",
+    "logo": "icons/logo.png",
+    "preload": "preload.js",
+    "version": "0.0.2",
+    "features": [{
+        "code": "setapi-hulu",
+        "explain": "设置你的专属记录 API",
+        "cmds": ["hulu", "set hulu api"]
+    }, {
+        "code": "send_to_hulu",
+        "explain": "发送文字到 Flomo",
+        "icon": "icons/send.png",
+        "cmds": [{
+            "type": "over",
+            "label": "发送",
+            "minLength": 2
+        }]
+    }],
+    "name": "a07869dd"
+}
