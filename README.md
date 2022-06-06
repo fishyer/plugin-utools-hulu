@@ -43,7 +43,7 @@
 ## 五.如何安装
 
 1. 下载[uTools 工具](https://u.tools/)
-2. 下载 utools-plugin-hulu，链接：https://pan.baidu.com/s/1whJEZwEaUGJe_ogBfbP8Zw
+2. 下载 utools-plugin-hulu，链接：https://pan.baidu.com/s/1CMYjCNjbDjMMlmxGY-R5XQ
    提取码：1234
 3. 下载好了插件的 upx 文件后，复制文件，打开 uTools,它会自动提示安装的
    ![](https://yupic.oss-cn-shanghai.aliyuncs.com/20220606194113.png)
