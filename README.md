@@ -1,6 +1,8 @@
 # 葫芦笔记-uTools 速记插件
 
-这是一个 [uTools](https://u.tools/) 上的速记插件。
+这是一个 [uTools](https://u.tools/) 上的速记插件，支持 Mac、Windows、Linux
+
+源码地址：https://github.com/fishyer/utools-plugin-hulu
 
 基于 [heibai01/utools-plugin-flomo](https://github.com/heibai01/utools-plugin-flomo)改写。
 
@@ -45,3 +47,9 @@
    提取码：1234
 3. 下载好了插件的 upx 文件后，复制文件，打开 uTools,它会自动提示安装的
    ![](https://yupic.oss-cn-shanghai.aliyuncs.com/20220606194113.png)
+
+## 参考资料
+
+1. [uTools 插件开发文档](https://u.tools/docs/developer/welcome.html#plugin-json)
+2. [heibai01/utools-plugin-flomo](https://github.com/heibai01/utools-plugin-flomo)
+3. [阅读快速收集笔记竟可如此简单？](https://mp.weixin.qq.com/s/4SFHtlN3I82ifH_hpOHt-A)
