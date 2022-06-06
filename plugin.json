@@ -9,28 +9,16 @@
     "features": [{
         "code": "set_api",
         "explain": "设置你的个人 API",
-        "cmds": [{
-            "type": "over",
-            "label": "setHuluApi",
-            "minLength": 1
-        }]
+        "cmds": ["setHuluApi"]
     }, {
         "code": "send_to_hulu",
         "explain": "发送文字到 hulu",
         "icon": "icons/logo.png",
-        "cmds": ["sendToHulu", {
-            "type": "over",
-            "label": "send-To-Hulu",
-            "minLength": 1
-        }]
+        "cmds": ["sendToHulu"]
     }, {
         "code": "add_to_hulu",
         "explain": "快速记录到 hulu",
-        "cmds": ["addToHulu", {
-            "type": "over",
-            "label": "add-To-Hulu",
-            "minLength": 1
-        }]
+        "cmds": ["addToHulu"]
     }],
     "name": "a07869dd"
 }

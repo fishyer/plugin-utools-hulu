@@ -20,7 +20,7 @@ const addHulu = (content) => {
   const config = {
     method: 'post',
     // 登录葫芦笔记笔记库首页，点击头像，进入个人中心，然后点击获取API链接，即可得到API链接 https://www.hulunote.com/app
-    // 类似于这样的url: 'https://www.hulunote.com/myapi/quick-text-put/868253a542864a498090260f2462af3f',
+    // 类似于这样的url: 'https://www.hulunote.com/myapi/quick-text-put/868253a542823a498090260f2462af3f',
     url: api.api,
     headers: {
       'Content-Type': 'application/json'
