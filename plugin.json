@@ -14,7 +14,11 @@
         "code": "send_to_hulu",
         "explain": "发送文字到 hulu",
         "icon": "icons/logo.png",
-        "cmds": ["sendToHulu"]
+        "cmds": ["sendToHulu", {
+            "type": "over",
+            "label": "发送文字到Hulu",
+            "minLength": 1
+        }]
     }, {
         "code": "add_to_hulu",
         "explain": "快速记录到 hulu",

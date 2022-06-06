@@ -51,7 +51,7 @@ window.exports = {
         callbackSetList([{
           title: '确定',
           description: '设置 hulu API',
-          icon: 'icons/setapi.png',
+          icon: 'icons/logo.png',
           api: searchWord,
         }]);
       },
@@ -98,7 +98,7 @@ window.exports = {
         callbackSetList([{
           title: '添加笔记到hulu',
           description: '随便记点什么吧',
-          icon: 'icons/setapi.png',
+          icon: 'icons/logo.png',
           content: searchWord
         }]);
       },
