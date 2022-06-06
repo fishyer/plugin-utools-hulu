@@ -1,7 +1,7 @@
 {
   "name": "utools-plugin-hulu",
   "version": "1.0.0",
-  "description": "utools 插件: 使用 flomo 记录你的想法川流",
+  "description": "utools 插件: 使用 hulu 记录你的想法",
   "dependencies": {
     "axios": "^0.21.1"
   },
@@ -11,16 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/heibai01/utools-plugin-flomo.git"
+    "url": "git+ssh://git@github.com/fishyer/utools-plugin-hulu.git"
   },
   "keywords": [
-    "flomo",
-    "utools"
+    "hulu"
   ],
-  "author": "heibai-fishyer",
+  "author": "fishyer",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/heibai01/utools-plugin-flomo/issues"
+    "url": "https://github.com/fishyer/utools-plugin-hulu/issues"
   },
-  "homepage": "https://github.com/heibai01/utools-plugin-flomo#readme"
+  "homepage": "https://github.com/fishyer/utools-plugin-hulu#readme"
 }

@@ -2,22 +2,34 @@
     "pluginName": "hulu",
     "description": "记录你的想法川流",
     "author": "heibai",
-    "homepage": "https://github.com/heibai01/utools-plugin-flomo",
+    "homepage": "https://github.com/fishyer/utools-plugin-hulu",
     "logo": "icons/logo.png",
     "preload": "preload.js",
     "version": "0.0.2",
     "features": [{
-        "code": "setapi-hulu",
-        "explain": "设置你的专属记录 API",
-        "cmds": ["hulu", "set hulu api"]
-    }, {
-        "code": "send_to_hulu",
-        "explain": "发送文字到 Flomo",
-        "icon": "icons/send.png",
+        "code": "set_api",
+        "explain": "设置你的个人 API",
         "cmds": [{
             "type": "over",
-            "label": "发送",
-            "minLength": 2
+            "label": "setHuluApi",
+            "minLength": 1
+        }]
+    }, {
+        "code": "send_to_hulu",
+        "explain": "发送文字到 hulu",
+        "icon": "icons/logo.png",
+        "cmds": ["sendToHulu", {
+            "type": "over",
+            "label": "send-To-Hulu",
+            "minLength": 1
+        }]
+    }, {
+        "code": "add_to_hulu",
+        "explain": "快速记录到 hulu",
+        "cmds": ["addToHulu", {
+            "type": "over",
+            "label": "add-To-Hulu",
+            "minLength": 1
         }]
     }],
     "name": "a07869dd"
